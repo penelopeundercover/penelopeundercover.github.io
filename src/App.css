@@ -1,38 +1,137 @@
-.App {
+/* Future: Find a more appealing font. */
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  background-image: url(./lorempicsum737.jpg);
+  background-size: cover;
+  background-position: center;
+}
+header h1 {
+  padding: 5px;
+  margin-left: 10px;
+  color: white;
+}
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 300px;
+  list-style: none;
+  margin-right: 30px;
+}
+header ul a {
+  color: white;
+  padding: 20px;
+}
+
+/* Homepage/About Page */
+#about {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./lorempicsum737.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: white;
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+}
+#header h1 {
+  padding: 5px;
+  margin-left: 10px;
+}
+#header ul {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 300px;
+  list-style: none;
+  margin-right: 30px;
+}
+#header ul a {
+  color: white;
+  padding: 20px;
+}
+/* Future: Improve contrast in text box. */
+#about-me {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0, 0.6);
+  margin-left: 9%;
+  margin-right: 9%;
+  padding-bottom: 10px;
+}
+#about h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 10%;
+}
+#bio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Marianne {
+  height: 200px;
+  width: 200px;
+}
+#about p {
+  flex-direction: column;
+  text-align: justify;
+  width: 450px;
+  margin-left: 5%;
+}
+
+/* Projects Page */
+/* Future: Fix style and alignment issues with cards. */
+.projectCards {
+  background-color: rgb(0, 0, 255, 0.3);
+}
+.projectCards h1 {
+  display: flex;
+  margin-bottom: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Resume Page */
+#resume h1 {
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Contact Page */
+#contact-page {
+  background-color: rgb(0, 0, 255, 0.3);
+}
+.resumeImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Footer */
+/* Future: Format footer and its icons. */
+footer {
+  background-color: rgb(0, 0, 0, 0.4);
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  height: 30px;
+  font-size: 20px;
 }
