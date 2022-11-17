@@ -8,16 +8,16 @@ function About() {
         <h1>Marianne Seiwert</h1>
         <ul>
           <li>
-            <Link to="/penelopeundercover.github.io/home">About</Link>
+            <Link to="/">About</Link>
           </li>
           <li>
-            <Link to="/penelopeundercover.github.io/projects">Projects</Link>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <Link to="/Portfolio/resume">Resume</Link>
+            <Link to="/resume">Resume</Link>
           </li>
           <li>
-            <Link to="/penelopeundercover.github.io/contact">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </div>

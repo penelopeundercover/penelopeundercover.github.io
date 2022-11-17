@@ -1,6 +1,6 @@
 export const projectInfo = [
   {
-    image: "./images/TeamProfileGenerator.png",
+    image: "../images/TeamProfileGenerator.png",
     heading: "Team Profile Generator",
     link: "https://github.com/penelopeundercover/Team-Profile-Generator.git",
   },
